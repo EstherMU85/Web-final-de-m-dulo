@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+/* Estilos generales */
+:root{
+    --color-0: #f5f0e2;
+    --color-1: #f4e9cd;
+    --color-2: #9dbebb;
+    --color-3: #77aca2;
+    --color-4: #468189;
+    --color-5: #031926;
+    --titles: 'Montserrat';
+    --text: 'Noto Sans';
+}
+body{
+    background-color: var(--color-2);
+    font-family: var(--text);
+}
+h1,h2,h3,h4{
+    font-family: var(--titles);
+}
+/* Estilo para la cabecera */
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link {
+	color: var(--color-0);
+    transition: all .2s ease;
+}
+.nav-link:hover, .nav-item:hover, .nav-bar:hover{
+    background-color: var(--color-2);
+    transform: scale(1.1);
+}
+header{
+    background-color: var(--color-5);
+	color: var(--color-0);
+    border-bottom: 2px solid var(--color-0);
+}
+hgroup{
+    padding-top: 1rem;
+}
+.menu-lateral{
+    background-color: var(--color-5);
+    color: var(--color-0);
+}
+.offcanvas .nav-link {
+  transform-origin: left center;
+}
