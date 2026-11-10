@@ -54,3 +54,7 @@ hgroup{
 	padding: 1rem;
 	text-align: justify;
 }
+.section-title {
+	color: var(--color-0);
+	font-weight: bold;
+}
