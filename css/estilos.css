@@ -10,12 +10,12 @@ img {
 }
 /* Estilos generales */
 :root{
-    --color-0: #f5f0e2;
-    --color-1: #f4e9cd;
-    --color-2: #9dbebb;
-    --color-3: #77aca2;
-    --color-4: #468189;
-    --color-5: #031926;
+    --color-0: #9D7052; 
+    --color-1: #565D5F; 
+    --color-2: #F3F1EB; 
+    --color-3: #E3DDD8; 
+    --color-4: #4C4F50;
+    --color-5: #E1DED7; 
     --titles: 'Montserrat';
     --text: 'Noto Sans';
 }
@@ -33,7 +33,6 @@ h1,h2,h3,h4{
 }
 .nav-link:hover, .nav-item:hover, .nav-bar:hover{
     background-color: var(--color-2);
-    transform: scale(1.1);
 }
 header{
     background-color: var(--color-5);
@@ -49,4 +48,9 @@ hgroup{
 }
 .offcanvas .nav-link {
   transform-origin: left center;
+}
+/* Estilo de la página principal*/
+#principal {
+	padding: 1rem;
+	text-align: justify;
 }
