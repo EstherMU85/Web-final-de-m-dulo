@@ -26,6 +26,9 @@ body{
 h1,h2,h3,h4{
     font-family: var(--titles);
 }
+li{
+    list-style: none;
+}
 /* Estilo para la cabecera */
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link {
 	color: var(--color-0);
