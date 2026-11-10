@@ -50,11 +50,17 @@ hgroup{
   transform-origin: left center;
 }
 /* Estilo de la página principal*/
-#principal {
+#principal, .contenido {
 	padding: 1rem;
 	text-align: justify;
 }
 .section-title {
 	color: var(--color-0);
 	font-weight: bold;
+}
+/*Estilos par las tarjetas*/
+.tarjetas {
+	padding: 1rem;
+	border: 1px solid var(--color-1)\);
+	background-color: var(--color-3);
 }
