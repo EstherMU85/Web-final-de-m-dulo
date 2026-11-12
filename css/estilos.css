@@ -66,6 +66,11 @@ hgroup{
 	padding: 1rem;
 	border: 1px solid var(--color-1)\);
 	background-color: var(--color-3);
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5.5rem;
 }
 .card-header {
 	padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
