@@ -140,3 +140,8 @@ ul {
 	padding: 1rem;
 	position: static;
 }
+/* Estilos para los lsitados de artículos y conferencias */
+.articulos li{
+	list-style: inside var(--color-0);
+	line-height: 1.5rem;
+}
