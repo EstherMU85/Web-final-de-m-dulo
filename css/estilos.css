@@ -34,8 +34,17 @@ li{
 	color: var(--color-0);
     transition: all .2s ease;
 }
-.nav-link:hover, .nav-item:hover, .nav-bar:hover{
+.nav-link:hover, .nav-item:hover, .nav-bar:hover {
     background-color: var(--color-2);
+	color: var(--color-0);
+	font-weight: bold;
+	border-radius: .2rem;
+	box-shadow: 2px 2px 2px var(--color-0);
+}
+.dropdown-item:hover{
+	background-color: var(--color-2);
+	color: var(--color-0);
+	font-weight: bold;
 }
 header{
     background-color: var(--color-5);
@@ -60,6 +69,18 @@ hgroup{
 .section-title {
 	color: var(--color-0);
 	font-weight: bold;
+}
+.dropdown-menu {
+	background: var(--color-2);
+	border-radius: .2rem;
+	box-shadow: 2px 2px 2px var(--color-0);
+	width: fit-content;
+}
+.dropdown-item{
+	color: var(--color-0);
+}
+.offcanvas{
+	--bs-offcanvas-width: 210px;
 }
 /*Estilos par las tarjetas*/
 .tarjetas {
