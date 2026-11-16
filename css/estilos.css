@@ -126,7 +126,7 @@ hgroup{
 	padding: .2rem;
 	border-bottom: 2px solid var(--color-0);
 }
-ul {
+.articulos {
 	overflow: hidden;
 	transition: height 0.35s ease-in-out;
 	margin: 0;
