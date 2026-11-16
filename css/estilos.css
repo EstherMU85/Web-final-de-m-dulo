@@ -132,3 +132,11 @@ ul {
 	margin: 0;
 	margin-bottom: 1rem;
 }
+/*Aside para las páginas papers y conferences*/
+.lateral {
+	gap: .5rem;
+	background-color: var(--color-5);
+	margin: auto;
+	padding: 1rem;
+	position: static;
+}
