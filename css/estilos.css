@@ -15,7 +15,7 @@ img {
     --color-2: #F3F1EB; 
     --color-3: #E3DDD8; 
     --color-4: #4C4F50;
-    --color-5: #E1DED7; 
+    --color-5: #E3DDD8; 
     --titles: 'Montserrat';
     --text: 'Noto Sans';
 }
@@ -53,6 +53,9 @@ header{
 }
 hgroup{
     padding-top: 1rem;
+}
+.logo{
+	width: 100%;
 }
 .menu-lateral{
     background-color: var(--color-5);
