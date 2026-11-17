@@ -161,11 +161,18 @@ hgroup{
 	padding: 1rem;
 	position: static;
 }
-/* Estilos para los lsitados de artículos y conferencias */
-.articulos li{
-	list-style: inside var(--color-0);
+/* Estilos para los listados de artículos y conferencias */
+.li-item{
 	line-height: 1.5rem;
 }
+
+.li-item::before{
+	content: url('imgs/circulo.png');
+	color: var(--color-1);
+	width: 20px;
+	height: 20px;
+}
+
 /* Estilo para los iconos del footer */
 .rrss {
 	margin: auto;
@@ -175,6 +182,7 @@ hgroup{
 	border-top: 2px solid var(--color-0);
 	margin-top: 1rem;
 }
+
 .svg-inline--fa.fa-github,
 .svg-inline--fa.fa-linkedin, 
 .svg-inline--fa.fa-orcid,
