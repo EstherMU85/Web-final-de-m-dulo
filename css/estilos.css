@@ -26,7 +26,7 @@ body{
 h1,h2,h3,h4{
     font-family: var(--titles);
 }
-li{
+ul, li{
     list-style: none;
 }
 /* Estilo para la cabecera */
@@ -162,15 +162,24 @@ hgroup{
 	position: static;
 }
 /* Estilos para los listados de artículos y conferencias */
-.li-item{
-	line-height: 1.5rem;
+.li-item {
+  position: relative;
+  padding-left: 28px;   /* Espacio reservado para el icono y la separación */
+  margin-bottom: 12px;  /* Separación entre cada referencia bibliográfica */
+  line-height: 1.5;
 }
 
-.li-item::before{
-	content: url('imgs/circulo.png');
-	color: var(--color-1);
-	width: 20px;
-	height: 20px;
+.li-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;            
+  width: 20px;          
+  height: 20px;         
+  background-image: url("..//imgs/circulo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Estilo para los iconos del footer */
