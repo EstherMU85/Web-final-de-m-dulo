@@ -173,7 +173,7 @@ hgroup{
 	text-align: center;
 	padding: 1rem;
 	border-top: 2px solid var(--color-0);
-	border-radius: .2rem;
+	margin-top: 1rem;
 }
 .svg-inline--fa.fa-github,
 .svg-inline--fa.fa-linkedin, 
