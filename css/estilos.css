@@ -85,6 +85,13 @@ hgroup{
 .offcanvas{
 	--bs-offcanvas-width: 210px;
 }
+/* Estilo para el perfil */
+#perfil {
+	padding-top: 1rem;
+	margin: auto;
+	border: 1px solid var(--color-0);
+	border-radius: .2rem;
+}
 /*Estilos par las tarjetas*/
 .tarjetas {
 	padding: 1rem;
@@ -140,6 +147,17 @@ hgroup{
 	background-clip: border-box;
 	border: var(--bs-card-border-width) solid var(--bs-card-border-color);
 	border-radius: .2rem;
+}
+/*Estilo tarjetas de galería de imágenes*/
+.research-card img {
+  width: 100%;
+  height: 220px; /* Ajusta la altura según tus preferencias */
+  object-fit: cover; /* Recorta la imagen proporcionalmente sin estirarla */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.research-card img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 /*Elementos de acordeon*/
 .year {
