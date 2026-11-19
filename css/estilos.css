@@ -176,31 +176,31 @@ hgroup{
 }
 /* Estilo de botón para copiar las referencias */
 .btn-copiar {
-  background-color: var(--color-5);
-  color: var(--color-0);
-  border: 1px solid var(--color-0);
-  border-radius: 0.2rem;
-  padding: 0.15rem 0.5rem;
-  font-size: 0.8rem;
-  font-family: var(--text);
-  cursor: pointer;
-  margin-left: 0.5rem;
-  transition: all 0.2s ease;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
+  	background-color: var(--color-5);
+  	color: var(--color-0);
+  	border: 1px solid var(--color-0);
+  	border-radius: 0.2rem;
+  	padding: 0.15rem 0.5rem;
+  	font-size: 0.8rem;
+  	font-family: var(--text);
+  	cursor: pointer;
+  	margin-left: 0.5rem;
+  	transition: all 0.2s ease;
+  	display: inline-flex;
+  	align-items: center;
+  	gap: 0.3rem;
 }
 
 .btn-copiar:hover {
-  background-color: var(--color-0);
-  color: var(--color-2);
+  	background-color: var(--color-0);
+  	color: var(--color-2);
 }
 
 /* Estado temporal cuando se ha copiado con éxito */
 .btn-copiar.copiado {
-  background-color: var(--color-4);
-  color: var(--color-2);
-  border-color: var(--color-4);
+  	background-color: var(--color-4);
+  	color: var(--color-2);
+  	border-color: var(--color-4);
 }
 /*Aside para las páginas papers y conferences*/
 .lateral {
@@ -210,32 +210,30 @@ hgroup{
 	padding: 1rem;
 	position: static;
 }
-/* Estilos para los listados de artículos y conferencias */
+/* Estilos y efectos para los listados de artículos y conferencias */
 .li-item {
-  position: relative;
-  /*padding-left: 20px;    Espacio reservado para el icono y la separación */
-  margin-bottom: 12px;  /* Separación entre cada referencia bibliográfica */
-  line-height: 1.5;
-  transition: transform 0.2s ease, background-color 0.2s ease;
-  padding: 0.5rem 0.5rem 0.5rem 32px;
-  border-radius: 0.2rem;
+  	position: relative;
+  	margin-bottom: 12px;  /* Separación entre cada referencia bibliográfica */
+  	line-height: 1.5;
+  	transition: transform 0.2s ease, background-color 0.2s ease;
+  	padding: 0.5rem 0.5rem 0.5rem 32px;
+  	border-radius: 0.2rem;
 }
-
 .li-item::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 4px;            
-  width: 20px;          
-  height: 20px;         
-  background-image: url("..//imgs/circulo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  	content: "";
+  	position: absolute;
+  	left: 0;
+  	top: 4px;            
+  	width: 20px;          
+  	height: 20px;         
+  	background-image: url("..//imgs/circulo.png");
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  	background-position: center;
 }
 .li-item:hover {
-  background-color: rgba(157, 112, 82, 0.08); /* Tono suave de --color-0 */
-  transform: translateX(-6px);
+  	background-color: rgba(157, 112, 82, 0.08); 
+  	transform: translateX(-6px);
 }
 
 /* Estilo para los iconos del footer */
