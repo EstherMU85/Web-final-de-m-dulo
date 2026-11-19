@@ -213,9 +213,12 @@ hgroup{
 /* Estilos para los listados de artículos y conferencias */
 .li-item {
   position: relative;
-  padding-left: 28px;   /* Espacio reservado para el icono y la separación */
+  /*padding-left: 20px;    Espacio reservado para el icono y la separación */
   margin-bottom: 12px;  /* Separación entre cada referencia bibliográfica */
   line-height: 1.5;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  padding: 0.5rem 0.5rem 0.5rem 32px;
+  border-radius: 0.2rem;
 }
 
 .li-item::before {
@@ -229,6 +232,10 @@ hgroup{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+.li-item:hover {
+  background-color: rgba(157, 112, 82, 0.08); /* Tono suave de --color-0 */
+  transform: translateX(-6px);
 }
 
 /* Estilo para los iconos del footer */
