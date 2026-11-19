@@ -161,12 +161,31 @@ hgroup{
 }
 /*Elementos de acordeon*/
 .year {
+	display: flex;          /* Hace que ocupe todo el ancho como un bloque */
+	align-items: center;    /* Centra el icono y el texto verticalmente */
+	gap: 8px;               /* Separación entre el diente y el año */
+	width: 100%;            /* Asegura que llegue de extremo a extremo */
+	box-sizing: border-box; /* Evita que el padding sume ancho extra y cree scroll */
 	background-color: var(--color-5);
 	color: var(--color-0);
 	cursor: pointer;
 	user-select: none;
-	padding: .2rem;
+	padding: .2rem .5rem;
 	border-bottom: 2px solid var(--color-0);
+	border-radius: .2rem .2rem 0 0;
+	font-family: var(--titles);
+}
+
+.year::before {
+	content: "";
+	display: block;
+	flex-shrink: 0;
+	width: 30px;          
+	height: 30px;         
+	background-image: url("../imgs/diente_4.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .articulos {
 	overflow: hidden;
@@ -236,7 +255,7 @@ hgroup{
 
 /* Estilo botones de las tarjetas */
 .btn {
-	 background-color: var(--color-4);
+	background-color: var(--color-4);
     color: var(--color-2);
     padding: 0.25rem 0.75rem;
     font-size: 0.85rem;
