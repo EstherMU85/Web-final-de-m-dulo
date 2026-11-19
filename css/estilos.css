@@ -284,6 +284,38 @@ hgroup{
   	background-color: rgba(157, 112, 82, 0.08); 
   	transform: translateX(-6px);
 }
+/* Flecha apra volver arriba de los elmentos acordeón */
+.articulos .volver-ano {
+    list-style: none; /* Elimina el punto de lista */
+    display: flex;
+    justify-content: flex-end; /* La envía a la derecha */
+    margin-top: 0.75rem;
+    padding-top: 0.25rem;
+}
+
+/* El enlace circular con la flecha */
+.btn-volver-ano {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--color-5);
+    color: var(--color-4);
+    border: 1px solid rgba(157, 112, 82, 0.35);
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn-volver-ano:hover {
+    background-color: var(--color-0);
+    color: var(--color-5);
+    border-color: var(--color-0);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(86, 93, 95, 0.2);
+}
 /* Estilo para los iconos del footer */
 .rrss {
 	margin: auto;
