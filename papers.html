@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <title>Papers</title>
     <link rel="stylesheet" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/3ad0e0aff5.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
         <!-- Cabecera del sitio -->
@@ -21,54 +24,60 @@
             </hgroup>
             <nav class="navbar navbar-expand-md">
                 <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral" aria-controls="menuLateral" aria-label="Abrir menú">
-                       <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#menuLateral" aria-controls="menuLateral" aria-label="Abrir menú">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="menuLateral" aria-labelledby="menuLateralLabel">
-                      <div class="offcanvas-header menu-lateral">
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
-                    </div>
-                    <div class="offcanvas-body menu-lateral">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                          </li>
-                          <!-- Sección de research con elemento combinado y split dropdown-->
-                          <li class="nav-item dropdown">
-                            <div class="btn-group">
-                                <!-- Enlace principal -->
-                                <a class="nav-link" href="research.html" role="button"  aria-expanded="false">Research</a>
-                                <!-- flecha desplegable -->
-                                <button class="nav-link dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
-                                <!-- Subemnú deplegable -->
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="papers.html">Papers</a></li>
-                                    <li><a class="dropdown-item" href="conferences.html">Conferences</a></li>
-                                    <li><a class="dropdown-item" href="">Projects</a></li>
-                                </ul>
-                            </div>
-                          </li>
-                          <!-- Sección de academics -->
-                          <li class="nav-item dropdown">
-                           <div class="btn-group">
-                            <!-- Enlace principal -->
-                            <a class="nav-link" href="#" role="button" aria-expanded="false">Academics</a>
-                            <!-- Flecha desplegable -->
-                            <button class="nav-link dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
-                                <!-- Submenú deplegable -->
-                                <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="">Qualifications</a></li>
-                                        <li><a class="dropdown-item" href="">Teaching exprerience</a></li>
-                                    </ul>
-                           </div>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Collaborators</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                          </li>
-                        </ul>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="menuLateral"
+                        aria-labelledby="menuLateralLabel">
+                        <div class="offcanvas-header menu-lateral">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="offcanvas-body menu-lateral">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <!-- Sección de research con elemento combinado y split dropdown-->
+                                <li class="nav-item dropdown">
+                                    <div class="btn-group">
+                                        <!-- Enlace principal -->
+                                        <a class="nav-link" href="research.html" role="button"
+                                            aria-expanded="false">Research</a>
+                                        <!-- flecha desplegable -->
+                                        <button class="nav-link dropdown-toggle dropdown-toggle-split"
+                                            data-bs-toggle="dropdown"></button>
+                                        <!-- Subemnú deplegable -->
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="papers.html">Papers</a></li>
+                                            <li><a class="dropdown-item" href="conferences.html">Conferences</a></li>
+                                            <li><a class="dropdown-item" href="">Projects</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <!-- Sección de academics -->
+                                <li class="nav-item dropdown">
+                                    <div class="btn-group">
+                                        <!-- Enlace principal -->
+                                        <a class="nav-link" href="#" role="button" aria-expanded="false">Academics</a>
+                                        <!-- Flecha desplegable -->
+                                        <button class="nav-link dropdown-toggle dropdown-toggle-split"
+                                            data-bs-toggle="dropdown"></button>
+                                        <!-- Submenú deplegable -->
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="">Qualifications</a></li>
+                                            <li><a class="dropdown-item" href="">Teaching exprerience</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Collaborators</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -77,122 +86,235 @@
         <!-- Contenido principal -->
         <section class="contenido col-12">
             <h2 class="section-title">Papers</h2>
-            <p> I have a keen interest in Open Science, and all my contributions are available to the scientific community and the public, either in their final version or in a non-commercial e-print version through my <a href="https://www.researchgate.net/profile/Esther-Manzanares">Researchgate</a> page.</p>
+            <p> I have a keen interest in Open Science, and all my contributions are available to the scientific
+                community and the public, either in their final version or in a non-commercial e-print version through
+                my <a href="https://www.researchgate.net/profile/Esther-Manzanares">Researchgate</a> page.</p>
         </section>
         <div class="row align-items-start">
             <main class="col-md-9">
                 <section class="contenido">
                     <h5 class="year" id="year-2026">2026</h3>
-                    <ul class="articulos">
-                        <li class="li-item">Manzanares, E. XXX In review</li>
-                        <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Johanson, Z. Najorka, J. Razziellot J. Underwood C.J. and R.J. Twitchett. 2026 First report of the biomineral whitlockite from the fossil record of holocephalans. <em>R. Soc. Open Sci. 13 (6): 252478.</em> <a href="https://doi.org/10.1098/rsos.252478">https://doi.org/10.1098/rsos.252478</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                    </li>
-                    <li class="volver-ano"><a href="#year-2026" class="btn-volver-ano" title="Volver al inicio de 2026" aria-label="Volver al inicio de 2026"><i class="fa-solid fa-arrow-up"></i></a>
-                        </li>
-                    </ul>
-                    <h5 class="year" id="year-2025">2025</h5>
-                    <ul class="articulos">
-                        <li class="li-item"><span class="cita-texto">LeBlanc ARH., Smith MM., Debiais-Thibaud M., <strong>Manzanares E.</strong>, Dean M., Underwood C. and Johanson Z. 2025. Cellular, bone-like tissue in the bucklers and thorns of the thornback ray <em>Raja clavata</em> (Batoidea, Chondrichthyes) <em>Proc. R. Soc. 209. B.29220250489</em> <a href="https://doi.org/10.1098/rspb.2025.0489">https://doi.org/10.1098/rspb.2025.0489</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="volver-ano"><a href="#year-2025" class="btn-volver-ano" title="Volver al inicio de 2025" aria-label="Volver al inicio de 2025"><i class="fa-solid fa-arrow-up"></i></a>
-                        </li>
-                    </ul>
-                    <h5 class="year" id="year-2023">2023</h5>
-                    <ul class="articulos">
-                        <li class="li-item"><span class="cita-texto"><strong>Manzanares E.,</strong> and Crespo V.D. 2023. First reelaborated Cretaceous batoid of the Early Miocene from Spain. <em>Palaeobio Palaeoenv 103, 569-574.</em><a href="https://doi.org/10.1007/s12549-022-00564-w">https://doi.org/10.1007/s12549-022-00564-w</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="volver-ano"><a href="#year-2023" class="btn-volver-ano" title="Volver al inicio de 2023" aria-label="Volver al inicio de 2023"><i class="fa-solid fa-arrow-up"></i></a>
-                        </li>
-                    </ul>
-                      <h5 class="year" id="year-2021">2021</h5>
-                      <ul class="articulos">
-                        <li class="li-item"><span class="cita-texto">Caballero O., Paredes-Aliaga MV., Costa-Pérez M., Bueno E., Álvarez-Parra S., Vilaplana A. and & <strong>Manzanares E.</strong> 2021. Studying the present, understanding the past. <em>Earth Sciences Journal Procedia 1, 154-157</em> <a href="https://doi.org/10.21695/cterraproc.v1i0.433">https://doi.org/10.21695/cterraproc.v1i0.433</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="li-item"><span class="cita-texto">Johanson Z., <strong>Manzanares E.</strong>, Underwood C., Clark B., Fernandez V. and Smith M. 2021. Ontogenetic development of the holocephalan dentition: Morphological transitions of dentine in the absence of teeth. <em>J Anat. 239, 704-719.</em> <a href="https://doi.org/10.1111/joa.13445">https://doi.org/10.1111/joa.13445</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="li-item"><span class="cita-texto">Dankina D., Spiridonov A., Stinkulis Ģ., Manzanares E. and Radzevičius S. 2021. A late Permian ichthyofauna from the Zechstein Basin, Lithuanian-Latvian Region. J Iber Geol 47, 461-481. <a href="https://doi.org/10.1007/s41513-020-00135-y">https://doi.org/10.1007/s41513-020-00135-y</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="volver-ano"><a href="#year-2021" class="btn-volver-ano" title="Volver al inicio de 2021" aria-label="Volver al inicio de 2021"><i class="fa-solid fa-arrow-up"></i></a>
-                        </li>
-                      </ul>
-                      <h5 class="year" id="year-2020">2020</h5>
-                      <ul class="articulos">
-                        <li class="li-item"><span class="cita-texto">Smith MM., <strong>Manzanares E.</strong>, Underwood C., Healy C., Clark B. and Johanson Z. 2020. Holocephalan (Chondrichthyes) dental plates with hypermineralized dentine as a substitute for missing teeth through developmental plasticity. <em>J Fish Biol. 97, 16-27.</em> <a href="https://doi.org/10.1111/jfb.14302">https://doi.org/10.1111/jfb.14302</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Escudero-Mozo MJ., Ferrón H., Martínez-Pérez C. and Botella H. 2020. Middle Triassic sharks from the Catalan Coastal ranges (NE Spain) and faunal colonization patterns during the westward transgression of Tethys. <em>Palaeogeogr. Palaeoclimatol. Palaeoecol. 539, 109489.</em> <a href="https://doi.org/10.1016/j.palaeo.2019.109489">https://doi.org/10.1016/j.palaeo.2019.109489</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="li-item"><span class="cita-texto">Botella H., Olive S., Pradel A., Rodriguez-Charry G., Colmenares F., Roman-Garcia L., <strong>Manzanares E.</strong>, Paredes-Aliaga MV., Navas-Parejo P. and Martinez-Perez C. 2020. First occurrence of fossil vertebrates from the Carboniferous of Colombia.<em> J. Vertebr. Paleontol. 40(1), Article e1764967.</em> <a href="https://dx.doi.org/10.1080/02724634.2020.1764967">10.1080/02724634.2020.1764967</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="volver-ano"><a href="#year-2020" class="btn-volver-ano" title="Volver al inicio de 2020" aria-label="Volver al inicio de 2020"><i class="fa-solid fa-arrow-up"></i></a>
-                        </li>
-                      </ul>
-                      <h5 class="year" id="year-2019">2019</h5>
-                      <ul class="articulos">
-                        <li class="li-item"><span class="cita-texto">Crespo VD. and <strong>Manzanares E.</strong> 2019. Palaeontological Virtual Congress: A new way to make science. <em>Palaeontol. Electronica. 22.3.pvc-preface 1-4.</em> <a href="https://doi.org/10.26879/1037">https://doi.org/10.26879/1037</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="volver-ano"><a href="#year-2019" class="btn-volver-ano" title="Volver al inicio de 2019" aria-label="Volver al inicio de 2019"><i class="fa-solid fa-arrow-up"></i></a>
-                        </li>
-                    </ul>
-                    <h5 class="year" id="year-2018">2018</h5>
-                    <ul class="articulos">
-                        <li class="li-item"><span class="cita-texto">Martínez-Pérez C., Carrillo-Briceño JD., Esparza C., Ferrón HG., <strong>Manzanares E.</strong>, Hammann C., and Botella H. 2018. A Serravallian (Middle Miocene) shark fauna from Southeastern Spain and its palaeoenvironment significance. <em>Hist. Biol. 30(3), 422-432.</em> <a href="https://dx.doi.org/10.1080/08912963.2017.1326111">10.1080/08912963.2017.1326111</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Pla C., Ferrón G., and Botella H. 2018. Middle-Late Triassic chondrichthyans remains from the Betic Range (Spain). <em>J. Iber. Geol. 44(1), 129-138.</em> <a href="https://dx.doi.org/10.1007/s41513-017-0027-1">10.1007/s41513-017-0027-1</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Botella H., and Delsate D. 2018. On the enameloid microstructure of Archaeobatidae (Neoselachii, Chondrichthyes). <em>J. Iber. Geol. 44(1), 67-74.</em> <a href="https://dx.doi.org/10.1007/s41513-018-0049-3">10.1007/s41513-018-0049-3</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="volver-ano"><a href="#year-2018" class="btn-volver-ano" title="Volver al inicio de 2018" aria-label="Volver al inicio de 2018"><i class="fa-solid fa-arrow-up"></i></a>
-                        </li>
-                        
-                    </ul>
-                    <h5 class="year" id="year-2017">2017</h5>
-                     <ul class="articulos">
-                        <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Pla C., Martinez-Perez C., Ferron H. and Botella H. 2017. <em>Lonchidion derenzii</em>, sp. nov., a new lonchidiid shark (Chondrichthyes, Hybodontiforms) from the Upper Triassic of Spain, with remarks on lonchidiid enameloid. <em>J. Vertebr. Paleontol. 37(1), Article e1253585.</em> <a href="https://dx.doi.org/10.1080/02724634.2017.1253585">10.1080/02724634.2017.1253585</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="volver-ano"><a href="#year-2017" class="btn-volver-ano" title="Volver al inicio de 2017" aria-label="Volver al inicio de 2017"><i class="fa-solid fa-arrow-up"></i></a>
-                        </li>
-                     </ul>
-                    <h5 class="year" id="year-2016">2016</h5>
-                     <ul class="articulos">
-                        <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Rasskin-Gutman D., and Botella H. 2016. New insights into the enameloid microstructure of batoid fishes (Chondrichthyes). <em>Zool. J. Linnean Soc. 177(3), 621-632.</em> <a href="https://dx.doi.org/10.1111/zoj.12377">10.1111/zoj.12377</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="li-item"><span class="cita-texto">de Renzi M., <strong>Manzanares E.</strong>, Marin-Monfort MD. and Botella H. 2016. Comments on «Dental lessons from past to present: ultrastructure and composition of teeth from plesiosaurs, dinosaurs, extinct and recent sharks» by A. Lubke, J. Enax, K. Loza, O. Prymak, P. Gaengler, H.-O. Fabritius, D. Raabe and M. Epple, RSC Adv., 2015, 5, 61612. <em>RSC Adv. 6(78), 74384-74388.</em> <a href="https://dx.doi.org/10.1039/c6ra16316e">10.1039/c6ra16316e</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="volver-ano"><a href="#year-2016" class="btn-volver-ano" title="Volver al inicio de 2016" aria-label="Volver al inicio de 2016"><i class="fa-solid fa-arrow-up"></i></a>
-                        </li>
-                     </ul>
-                    <h5 class="year" id="year-2014">2014</h5>
-                    <ul class="articulos">
-                        <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Plá C., Martínez-Pérez C., Rasskin D. and Botella H. 2014. The enameloid microstructure of euselachian (Chondrichthyes) scales. <em>Paleontol. J. 48(10), 1060-1066.</em> <a href="https://dx.doi.org/10.1134/S0031030114100062">10.1134/S0031030114100062</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="volver-ano"><a href="#year-2014" class="btn-volver-ano" title="Volver al inicio de 2014" aria-label="Volver al inicio de 2014"><i class="fa-solid fa-arrow-up"></i></a>
-                        </li>
-                    </ul>
-                    <h5 class="year" id="year-2010">2010</h5>
-                    <ul class="articulos">
-                        <li class="li-item"><span class="cita-texto">Martínez-Pérez C., Dupret V., <strong>Manzanares E.</strong>, and Botella H. 2010. New data on the Lower Devonian chondrichthyan fauna from Celtiberia (Spain). <em>J. Vertebr. Paleontol. 30(5), 1622-1627.</em> <a href="https://dx.doi.org/10.1080/02724634.2010.501451">10.1080/02724634.2010.50145</a></span>
-                        <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i> Copy cite</button>
-                        </li>
-                        <li class="volver-ano"><a href="#year-2010" class="btn-volver-ano" title="Volver al inicio de 2010" aria-label="Volver al inicio de 2010"><i class="fa-solid fa-arrow-up"></i></a>
-                        </li>
-                    </ul>
+                        <ul class="articulos">
+                            <li class="li-item">Manzanares, E. XXX In review</li>
+                            <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Johanson, Z.
+                                    Najorka, J. Razziellot J. Underwood C.J. and R.J. Twitchett. 2026 First report of
+                                    the biomineral whitlockite from the fossil record of holocephalans. <em>R. Soc. Open
+                                        Sci. 13 (6): 252478.</em> <a
+                                        href="https://doi.org/10.1098/rsos.252478">https://doi.org/10.1098/rsos.252478</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="volver-ano"><a href="#year-2026" class="btn-volver-ano"
+                                    title="Volver al inicio de 2026" aria-label="Volver al inicio de 2026"><i
+                                        class="fa-solid fa-arrow-up"></i></a>
+                            </li>
+                        </ul>
+                        <h5 class="year" id="year-2025">2025</h5>
+                        <ul class="articulos">
+                            <li class="li-item"><span class="cita-texto">LeBlanc ARH., Smith MM., Debiais-Thibaud M.,
+                                    <strong>Manzanares E.</strong>, Dean M., Underwood C. and Johanson Z. 2025.
+                                    Cellular, bone-like tissue in the bucklers and thorns of the thornback ray <em>Raja
+                                        clavata</em> (Batoidea, Chondrichthyes) <em>Proc. R. Soc. 209.
+                                        B.29220250489</em> <a
+                                        href="https://doi.org/10.1098/rspb.2025.0489">https://doi.org/10.1098/rspb.2025.0489</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="volver-ano"><a href="#year-2025" class="btn-volver-ano"
+                                    title="Volver al inicio de 2025" aria-label="Volver al inicio de 2025"><i
+                                        class="fa-solid fa-arrow-up"></i></a>
+                            </li>
+                        </ul>
+                        <h5 class="year" id="year-2023">2023</h5>
+                        <ul class="articulos">
+                            <li class="li-item"><span class="cita-texto"><strong>Manzanares E.,</strong> and Crespo V.D.
+                                    2023. First reelaborated Cretaceous batoid of the Early Miocene from Spain.
+                                    <em>Palaeobio Palaeoenv 103, 569-574.</em><a
+                                        href="https://doi.org/10.1007/s12549-022-00564-w">https://doi.org/10.1007/s12549-022-00564-w</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="volver-ano"><a href="#year-2023" class="btn-volver-ano"
+                                    title="Volver al inicio de 2023" aria-label="Volver al inicio de 2023"><i
+                                        class="fa-solid fa-arrow-up"></i></a>
+                            </li>
+                        </ul>
+                        <h5 class="year" id="year-2021">2021</h5>
+                        <ul class="articulos">
+                            <li class="li-item"><span class="cita-texto">Caballero O., Paredes-Aliaga MV., Costa-Pérez
+                                    M., Bueno E., Álvarez-Parra S., Vilaplana A. and & <strong>Manzanares E.</strong>
+                                    2021. Studying the present, understanding the past. <em>Earth Sciences Journal
+                                        Procedia 1, 154-157</em> <a
+                                        href="https://doi.org/10.21695/cterraproc.v1i0.433">https://doi.org/10.21695/cterraproc.v1i0.433</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="li-item"><span class="cita-texto">Johanson Z., <strong>Manzanares E.</strong>,
+                                    Underwood C., Clark B., Fernandez V. and Smith M. 2021. Ontogenetic development of
+                                    the holocephalan dentition: Morphological transitions of dentine in the absence of
+                                    teeth. <em>J Anat. 239, 704-719.</em> <a
+                                        href="https://doi.org/10.1111/joa.13445">https://doi.org/10.1111/joa.13445</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="li-item"><span class="cita-texto">Dankina D., Spiridonov A., Stinkulis Ģ.,
+                                    Manzanares E. and Radzevičius S. 2021. A late Permian ichthyofauna from the
+                                    Zechstein Basin, Lithuanian-Latvian Region. J Iber Geol 47, 461-481. <a
+                                        href="https://doi.org/10.1007/s41513-020-00135-y">https://doi.org/10.1007/s41513-020-00135-y</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="volver-ano"><a href="#year-2021" class="btn-volver-ano"
+                                    title="Volver al inicio de 2021" aria-label="Volver al inicio de 2021"><i
+                                        class="fa-solid fa-arrow-up"></i></a>
+                            </li>
+                        </ul>
+                        <h5 class="year" id="year-2020">2020</h5>
+                        <ul class="articulos">
+                            <li class="li-item"><span class="cita-texto">Smith MM., <strong>Manzanares E.</strong>,
+                                    Underwood C., Healy C., Clark B. and Johanson Z. 2020. Holocephalan (Chondrichthyes)
+                                    dental plates with hypermineralized dentine as a substitute for missing teeth
+                                    through developmental plasticity. <em>J Fish Biol. 97, 16-27.</em> <a
+                                        href="https://doi.org/10.1111/jfb.14302">https://doi.org/10.1111/jfb.14302</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Escudero-Mozo
+                                    MJ., Ferrón H., Martínez-Pérez C. and Botella H. 2020. Middle Triassic sharks from
+                                    the Catalan Coastal ranges (NE Spain) and faunal colonization patterns during the
+                                    westward transgression of Tethys. <em>Palaeogeogr. Palaeoclimatol. Palaeoecol. 539,
+                                        109489.</em> <a
+                                        href="https://doi.org/10.1016/j.palaeo.2019.109489">https://doi.org/10.1016/j.palaeo.2019.109489</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="li-item"><span class="cita-texto">Botella H., Olive S., Pradel A.,
+                                    Rodriguez-Charry G., Colmenares F., Roman-Garcia L., <strong>Manzanares E.</strong>,
+                                    Paredes-Aliaga MV., Navas-Parejo P. and Martinez-Perez C. 2020. First occurrence of
+                                    fossil vertebrates from the Carboniferous of Colombia.<em> J. Vertebr. Paleontol.
+                                        40(1), Article e1764967.</em> <a
+                                        href="https://dx.doi.org/10.1080/02724634.2020.1764967">10.1080/02724634.2020.1764967</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="volver-ano"><a href="#year-2020" class="btn-volver-ano"
+                                    title="Volver al inicio de 2020" aria-label="Volver al inicio de 2020"><i
+                                        class="fa-solid fa-arrow-up"></i></a>
+                            </li>
+                        </ul>
+                        <h5 class="year" id="year-2019">2019</h5>
+                        <ul class="articulos">
+                            <li class="li-item"><span class="cita-texto">Crespo VD. and <strong>Manzanares E.</strong>
+                                    2019. Palaeontological Virtual Congress: A new way to make science. <em>Palaeontol.
+                                        Electronica. 22.3.pvc-preface 1-4.</em> <a
+                                        href="https://doi.org/10.26879/1037">https://doi.org/10.26879/1037</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="volver-ano"><a href="#year-2019" class="btn-volver-ano"
+                                    title="Volver al inicio de 2019" aria-label="Volver al inicio de 2019"><i
+                                        class="fa-solid fa-arrow-up"></i></a>
+                            </li>
+                        </ul>
+                        <h5 class="year" id="year-2018">2018</h5>
+                        <ul class="articulos">
+                            <li class="li-item"><span class="cita-texto">Martínez-Pérez C., Carrillo-Briceño JD.,
+                                    Esparza C., Ferrón HG., <strong>Manzanares E.</strong>, Hammann C., and Botella H.
+                                    2018. A Serravallian (Middle Miocene) shark fauna from Southeastern Spain and its
+                                    palaeoenvironment significance. <em>Hist. Biol. 30(3), 422-432.</em> <a
+                                        href="https://dx.doi.org/10.1080/08912963.2017.1326111">10.1080/08912963.2017.1326111</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Pla C., Ferrón
+                                    G., and Botella H. 2018. Middle-Late Triassic chondrichthyans remains from the Betic
+                                    Range (Spain). <em>J. Iber. Geol. 44(1), 129-138.</em> <a
+                                        href="https://dx.doi.org/10.1007/s41513-017-0027-1">10.1007/s41513-017-0027-1</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Botella H., and
+                                    Delsate D. 2018. On the enameloid microstructure of Archaeobatidae (Neoselachii,
+                                    Chondrichthyes). <em>J. Iber. Geol. 44(1), 67-74.</em> <a
+                                        href="https://dx.doi.org/10.1007/s41513-018-0049-3">10.1007/s41513-018-0049-3</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="volver-ano"><a href="#year-2018" class="btn-volver-ano"
+                                    title="Volver al inicio de 2018" aria-label="Volver al inicio de 2018"><i
+                                        class="fa-solid fa-arrow-up"></i></a>
+                            </li>
+
+                        </ul>
+                        <h5 class="year" id="year-2017">2017</h5>
+                        <ul class="articulos">
+                            <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Pla C.,
+                                    Martinez-Perez C., Ferron H. and Botella H. 2017. <em>Lonchidion derenzii</em>, sp.
+                                    nov., a new lonchidiid shark (Chondrichthyes, Hybodontiforms) from the Upper
+                                    Triassic of Spain, with remarks on lonchidiid enameloid. <em>J. Vertebr. Paleontol.
+                                        37(1), Article e1253585.</em> <a
+                                        href="https://dx.doi.org/10.1080/02724634.2017.1253585">10.1080/02724634.2017.1253585</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="volver-ano"><a href="#year-2017" class="btn-volver-ano"
+                                    title="Volver al inicio de 2017" aria-label="Volver al inicio de 2017"><i
+                                        class="fa-solid fa-arrow-up"></i></a>
+                            </li>
+                        </ul>
+                        <h5 class="year" id="year-2016">2016</h5>
+                        <ul class="articulos">
+                            <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Rasskin-Gutman
+                                    D., and Botella H. 2016. New insights into the enameloid microstructure of batoid
+                                    fishes (Chondrichthyes). <em>Zool. J. Linnean Soc. 177(3), 621-632.</em> <a
+                                        href="https://dx.doi.org/10.1111/zoj.12377">10.1111/zoj.12377</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="li-item"><span class="cita-texto">de Renzi M., <strong>Manzanares E.</strong>,
+                                    Marin-Monfort MD. and Botella H. 2016. Comments on «Dental lessons from past to
+                                    present: ultrastructure and composition of teeth from plesiosaurs, dinosaurs,
+                                    extinct and recent sharks» by A. Lubke, J. Enax, K. Loza, O. Prymak, P. Gaengler,
+                                    H.-O. Fabritius, D. Raabe and M. Epple, RSC Adv., 2015, 5, 61612. <em>RSC Adv.
+                                        6(78), 74384-74388.</em> <a
+                                        href="https://dx.doi.org/10.1039/c6ra16316e">10.1039/c6ra16316e</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="volver-ano"><a href="#year-2016" class="btn-volver-ano"
+                                    title="Volver al inicio de 2016" aria-label="Volver al inicio de 2016"><i
+                                        class="fa-solid fa-arrow-up"></i></a>
+                            </li>
+                        </ul>
+                        <h5 class="year" id="year-2014">2014</h5>
+                        <ul class="articulos">
+                            <li class="li-item"><span class="cita-texto"><strong>Manzanares E.</strong>, Plá C.,
+                                    Martínez-Pérez C., Rasskin D. and Botella H. 2014. The enameloid microstructure of
+                                    euselachian (Chondrichthyes) scales. <em>Paleontol. J. 48(10), 1060-1066.</em> <a
+                                        href="https://dx.doi.org/10.1134/S0031030114100062">10.1134/S0031030114100062</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="volver-ano"><a href="#year-2014" class="btn-volver-ano"
+                                    title="Volver al inicio de 2014" aria-label="Volver al inicio de 2014"><i
+                                        class="fa-solid fa-arrow-up"></i></a>
+                            </li>
+                        </ul>
+                        <h5 class="year" id="year-2010">2010</h5>
+                        <ul class="articulos">
+                            <li class="li-item"><span class="cita-texto">Martínez-Pérez C., Dupret V.,
+                                    <strong>Manzanares E.</strong>, and Botella H. 2010. New data on the Lower Devonian
+                                    chondrichthyan fauna from Celtiberia (Spain). <em>J. Vertebr. Paleontol. 30(5),
+                                        1622-1627.</em> <a
+                                        href="https://dx.doi.org/10.1080/02724634.2010.501451">10.1080/02724634.2010.50145</a></span>
+                                <button class="btn-copiar" title="Copiar referencia"><i class="fa-regular fa-copy"></i>
+                                    Copy cite</button>
+                            </li>
+                            <li class="volver-ano"><a href="#year-2010" class="btn-volver-ano"
+                                    title="Volver al inicio de 2010" aria-label="Volver al inicio de 2010"><i
+                                        class="fa-solid fa-arrow-up"></i></a>
+                            </li>
+                        </ul>
                 </section>
             </main>
             <aside class="col-md-3">
@@ -220,99 +342,104 @@
                     </div>
             </aside>
             <footer class="row">
-            <section class="rrss col-12">
-              <a href="https://www.researchgate.net/profile/Esther-Manzanares?ev=hdr_xprf" target="_blank">
-                <i class="fa-brands fa-researchgate"></i></a>
-                <a href="https://www.linkedin.com/in/esther-manzanares-ubeda-58466b162/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://orcid.org/0000-0002-9126-660X" target="_blank"><i class="fa-brands fa-orcid"></i></a>
-                <a href="https://github.com/EstherMU85" target="_blank"><i class="fa-brands fa-github"></i></a>
-              </section>
-          </footer >
-      </div>
+                <section class="rrss col-12">
+                    <a href="https://www.researchgate.net/profile/Esther-Manzanares?ev=hdr_xprf" target="_blank">
+                        <i class="fa-brands fa-researchgate"></i></a>
+                    <a href="https://www.linkedin.com/in/esther-manzanares-ubeda-58466b162/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://orcid.org/0000-0002-9126-660X" target="_blank"><i
+                            class="fa-brands fa-orcid"></i></a>
+                    <a href="https://github.com/EstherMU85" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </section>
+            </footer>
+        </div>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
     <script>
-    //EFECTO ACORDEÓN//
-    //Variables
-    let visible;
-    let años = document.querySelectorAll('.year');
-    let publicaciones = document.querySelectorAll('.articulos');
-    //Bucle para tener las alturas de los ul
-    for (let i = 0; i < publicaciones.length; i++) {
-        const altura = publicaciones[i].scrollHeight;
-        publicaciones[i].dataset.alto = altura;
-        publicaciones[i].style.height = '0px'; 
-    }
-    //Función para mostrar los párrafos
-    function muestraParrafo(elemento){
-        let nodo = elemento.nextElementSibling;
-        if (nodo == visible) {
-            ocultaParrafo(nodo);
-            visible = undefined;
-        } else {
-            ocultaParrafo(visible);
-            let altura = nodo.dataset.alto;
-            nodo.style.height = altura + 'px';
-            visible = nodo;
-            let arr_h3 = [...años];
-            let pos = arr_h3.indexOf(elemento);
-            let scroll_top = tops[pos];
-            window.scrollTo({
-                top: scroll_top,
-                behavior: "smooth" 
+        //EFECTO ACORDEÓN//
+        //Variables
+        let visible;
+        let años = document.querySelectorAll('.year');
+        let publicaciones = document.querySelectorAll('.articulos');
+        //Bucle para tener las alturas de los ul
+        for (let i = 0; i < publicaciones.length; i++) {
+            const altura = publicaciones[i].scrollHeight;
+            publicaciones[i].dataset.alto = altura;
+            publicaciones[i].style.height = '0px';
+        }
+        //Función para mostrar los párrafos
+        function muestraParrafo(elemento) {
+            let nodo = elemento.nextElementSibling;
+            if (nodo == visible) {
+                ocultaParrafo(nodo);
+                visible = undefined;
+            } else {
+                ocultaParrafo(visible);
+                let altura = nodo.dataset.alto;
+                nodo.style.height = altura + 'px';
+                visible = nodo;
+                let arr_h3 = [...años];
+                let pos = arr_h3.indexOf(elemento);
+                let scroll_top = tops[pos];
+                window.scrollTo({
+                    top: scroll_top,
+                    behavior: "smooth"
+                });
+            }
+        }
+        //Función para obtener las posiciones de cada año y desplazar la ventana
+        const tops = [];
+        for (let i = 0; i < años.length; i++) {
+            tops[i] = años[i].offsetTop;
+        }
+        //Función para ocultar el elemento visible
+        function ocultaParrafo(elemento) {
+            //si el elemento está visible lo ocultamos
+            if (elemento != undefined) {
+                elemento.style.height = '0px';
+            }
+        }
+        //Asignación dinámica de función a cada pregunta
+        for (let año of años) {
+            año.onclick = function () {
+                muestraParrafo(this);
+            }
+        }
+
+        //EFECTO COPIA DE REFERENCIAS//
+        //variable
+        const BTN_COPY = document.querySelectorAll('.btn-copiar');
+        //Función para copiar el texto
+        function copiarCita(boton) {
+            // Busca el texto de la cita dentro del mismo elemento <li>
+            const itemLista = boton.closest('.li-item');
+            const textoCita = itemLista.querySelector('.cita-texto').innerText.trim();
+
+            // Copia al portapapeles
+            navigator.clipboard.writeText(textoCita).then(() => {
+                const contenidoOriginal = boton.innerHTML;
+
+                // Cambia el aspecto del botón
+                boton.innerHTML = '✓ ¡Copied!';
+                boton.classList.add('copiado');
+
+                // Restaura el botón tras 2 segundos
+                setTimeout(() => {
+                    boton.innerHTML = contenidoOriginal;
+                    boton.classList.remove('copiado');
+                }, 1000);
+            }).catch(err => {
+                console.error('Error al copiar la cita: ', err);
             });
         }
-    }
-    //Función para obtener las posiciones de cada año y desplazar la ventana
-    const tops = [];
-        for (let i = 0; i < años.length; i++) {
-            tops[i] = años[i].offsetTop;  
+        //Evento
+        for (const boton of BTN_COPY) {
+            boton.onclick = () => copiarCita(boton);
         }
-    //Función para ocultar el elemento visible
-    function ocultaParrafo(elemento) {
-        //si el elemento está visible lo ocultamos
-        if (elemento != undefined) {
-            elemento.style.height = '0px';
-        }
-    }
-    //Asignación dinámica de función a cada pregunta
-    for (let año of años) {
-        año.onclick = function () {
-            muestraParrafo(this);
-        }
-    }
-
-    //EFECTO COPIA DE REFERENCIAS//
-    //variable
-    const BTN_COPY = document.querySelectorAll('.btn-copiar');
-    //Función para copiar el texto
-    function copiarCita(boton) {
-        // Busca el texto de la cita dentro del mismo elemento <li>
-        const itemLista = boton.closest('.li-item');
-        const textoCita = itemLista.querySelector('.cita-texto').innerText.trim();
-        
-        // Copia al portapapeles
-        navigator.clipboard.writeText(textoCita).then(() => {
-          const contenidoOriginal = boton.innerHTML;
-        
-          // Cambia el aspecto del botón
-          boton.innerHTML = '✓ ¡Copied!';
-          boton.classList.add('copiado');
-        
-          // Restaura el botón tras 2 segundos
-          setTimeout(() => {
-            boton.innerHTML = contenidoOriginal;
-            boton.classList.remove('copiado');
-          }, 1000);
-        }).catch(err => {
-          console.error('Error al copiar la cita: ', err);
-        });
-    }
-    //Evento
-    for (const boton of BTN_COPY) {
-        boton.onclick = () => copiarCita(boton);
-    }
     </script>
 </body>
+
 </html>
