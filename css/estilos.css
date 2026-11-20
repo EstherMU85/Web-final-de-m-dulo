@@ -72,6 +72,7 @@ hgroup{
 .section-title {
 	color: var(--color-0);
 	font-weight: bold;
+	font-family: var(--titles);
 }
 .dropdown-menu {
 	background: var(--color-2);
@@ -193,6 +194,7 @@ hgroup{
 	margin: 0;
 	margin-bottom: 1rem;
 }
+
 /* Estilo de botón para copiar las referencias */
 .btn-copiar {
   	background-color: var(--color-5);
@@ -221,6 +223,7 @@ hgroup{
   	color: var(--color-2);
   	border-color: var(--color-4);
 }
+
 /*Aside para las páginas papers y conferences*/
 .lateral {
 	display: flex; 
@@ -278,6 +281,7 @@ hgroup{
 .lateral .card:hover .btn::after {
     transform: translateX(3px);
 }
+
 /* Estilos y efectos para los listados de artículos y conferencias */
 .li-item {
   	position: relative;
