@@ -166,7 +166,7 @@ hgroup{
 	align-items: center;    /* Centra el icono y el texto verticalmente */
 	gap: 8px;               /* Separación entre el diente y el año */
 	width: 100%;            /* Asegura que llegue de extremo a extremo */
-	box-sizing: border-box; /* Evita que el padding sume ancho extra y cree scroll */
+	box-sizing: border-box;
 	background-color: var(--color-5);
 	color: var(--color-0);
 	cursor: pointer;
