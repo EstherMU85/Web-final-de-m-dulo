@@ -256,8 +256,8 @@ hgroup{
 	font-family: var(--titles);
 }
 
-/* Estilo botones de las tarjetas */
-.btn {
+/* Estilo botones de las tarjetas y enviar del formulario */
+.btn, #btn_submit {
 	background-color: var(--color-4);
     color: var(--color-2);
     padding: 0.25rem 0.75rem;
@@ -268,17 +268,17 @@ hgroup{
     gap: 0.4rem;
     transition: background-color 0.25s ease, transform 0.25s ease;
 }
-.btn::after{
+.btn::after, #btn_submit::after{
 	content: "→";
     display: inline-block;
     transition: transform 0.25s ease;
 }
-.lateral .card:hover .btn {
+.lateral .card:hover .btn, #btn_submit:hover {
     background-color: var(--color-0);
     color: var(--color-5);
 }
 
-.lateral .card:hover .btn::after {
+.lateral .card:hover .btn::after, #btn_submit:hover::after {
     transform: translateX(3px);
 }
 
@@ -379,4 +379,11 @@ hgroup{
 	color: var(--color-0);
 	font-style: italic;
 	font-size: 1.2rem;
+}
+/* Estilo formulario */
+.formulario{
+	margin: auto;
+}
+.fila label{
+	color: var(--color-0);
 }

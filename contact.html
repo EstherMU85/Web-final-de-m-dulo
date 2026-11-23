@@ -87,25 +87,26 @@
                 <h2 class="section-title">Contact me</h2>
                 <p>Feel free to reach out for research collaborations, sample inquiries, or academic discussions.</p>
             </section>
+            <!-- Formulario de contacto -->
             <section class="formulario col-10">
                 <form action="https://formspree.io" method="POST">
-                    <div class="mb-3">
-                      <label for="name" class="form-label fw-semibold" style="color: #5c4332;">Name *</label>
+                    <div class="fila mb-3">
+                      <label for="name" class="form-label fw-semibold">Name *</label>
                       <input type="text" class="form-control" id="name" name="name" placeholder="Dr. Jane Doe" required>
                     </div>
                 
-                    <div class="mb-3">
-                      <label for="email" class="form-label fw-semibold" style="color: #5c4332;">Email address *</label>
+                    <div class="fila mb-3">
+                      <label for="email" class="form-label fw-semibold">Email address *</label>
                       <input type="email" class="form-control" id="email" name="email" placeholder="name@institution.edu" required>
                     </div>
                 
-                    <div class="mb-3">
-                      <label for="institution" class="form-label fw-semibold" style="color: #5c4332;">Institution / Affiliation <span class="text-muted fw-normal">(Optional)</span></label>
+                    <div class=" fila mb-3">
+                      <label for="institution" class="form-label fw-semibold">Institution / Affiliation <span class="text-muted fw-normal">(Optional)</span></label>
                       <input type="text" class="form-control" id="institution" name="institution" placeholder="University or Research Center">
                     </div>
                 
-                    <div class="mb-3">
-                      <label for="subject" class="form-label fw-semibold" style="color: #5c4332;">Subject *</label>
+                    <div class="fila mb-3">
+                      <label for="subject" class="form-label fw-semibold">Subject *</label>
                       <select class="form-select" id="subject" name="subject">
                         <option value="Collaboration" selected>Research Collaboration</option>
                         <option value="Publication / Data">Publication or Data Request</option>
@@ -114,13 +115,13 @@
                       </select>
                     </div>
                 
-                    <div class="mb-4">
-                      <label for="message" class="form-label fw-semibold" style="color: #5c4332;">Message*</label>
+                    <div class="fila mb-4">
+                      <label for="message" class="form-label fw-semibold">Message*</label>
                       <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
                     </div>
                 
-                    <div class="d-grid">
-                      <button type="submit" class="btn text-white py-2 fw-semibold" style="background-color: #5c4332;">
+                    <div class="d-grid col-3">
+                      <button id="btn_submit" type="submit" class="btn">
                         Send Message
                       </button>
                     </div>
