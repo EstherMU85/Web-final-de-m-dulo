@@ -65,6 +65,11 @@ hgroup{
 .offcanvas .nav-link {
   transform-origin: left center;
 }
+.enlaces{
+	color: var(--color-0);
+	text-decoration: none;
+	font-weight: bold;
+}
 /* Estilo de la página principal*/
 #principal, .contenido {
 	padding: 1rem;
