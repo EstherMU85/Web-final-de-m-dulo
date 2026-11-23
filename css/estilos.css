@@ -365,3 +365,13 @@ hgroup{
 	color: var(--color-1);
 	transform: scale(1.2);
 }
+/* Estilo de la página de los colaboradores */
+.linea {
+	border-left: 1px solid var(--color-1);
+	height: 30px;
+	margin: auto;
+	width: 0; 
+	padding-left: 0; 
+	position: relative;
+	left: 3%;
+}
