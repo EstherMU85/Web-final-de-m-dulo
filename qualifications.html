@@ -82,10 +82,43 @@
         <!-- Contenido principal -->
          <main class="row">
             <section class="contenido col-12">
-                <h2 class="section-title">My CV</h2>
+                <h2 class="section-title">My qualifications</h2>
                 <p>I started my studies at the University of Valencia, were I did my Biology bacheloir degree</p>
             </section>
-            <section class="tarjetas col-10 row">
+            <section class="contenido col-10">
+                <h5>Academic degrees</h5>
+                <ul>
+                    <h6>PhD in Palaeontology (2020)</h6>
+                    <li>Institution: University of València</li>
+                    <li>Thesis title: ""</li>
+                    <li>Supervisor: Dr. Héctor Botella Sevilla</li>
+                    <li>Distinction: Cum Laude/ International mention</li>
+                </ul>
+                <ul>
+                    <h6>Msc in Biodiversity: Evolution and Conservation (2009)</h6>
+                    <li>Institution: University of València</li>
+                    <li>Máster's Thesis: ""</li>
+                    <li>Supervisor: Dr. Héctor Botella Sevilla</li>
+                </ul>
+                <ul>
+                    <h6>BSc iun Biology (2008)</h6>
+                    <li>Institution: University of València</li>
+                </ul>
+                <h5 class="year">Computational & Data Analysis Courses</h5>
+                <ul class="articulos">
+                    <li class="li-item"> Python Machine Learning in Biology. <em>Transmitting Science.</em> 2025 (17,5h)</li>
+                    <li class="li-item">Morphological phylogenetics: principles, applications, and techniques - 6th edition. <em>Transmitting Science.</em> 2022 (40h)</li>
+                    <li class="li-item">Introduction to 3D modeling in Blender and Finite Element Analisys. <em>Universitat de València.</em> 2019 (8h)</li>
+                    <li class="li-item">Introducción a la fotomicroscopia y gestión de imagen en ambientes NIS y LAS. <em>Institut Cavanilles de Biodiversitat i Biología evolutiva.</em> 2018 (14h)</li>
+                </ul>
+                <h5 class="year">Teaching Innovation & Pedagogy</h5>
+                <ul class="articulos">
+                    <li class="li-item">Innovacions en metodología docente. Recursos tecnológics i pedagògics a l’era digital. <em>Universitat de València</em>. 2022 (16h)</li>
+                    <li class="li-item">Avaluació de l’aprenentage amd eines tecnològiques. <em>Universitat de València</em>. 2022 (20h)</li>
+                    <li class="li-item">Comunicació escrita eficaç en metodologies àgils. <em>Universitat de València</em>. 2022 (8h)</li>
+                </ul>
+            </section>
+            <section class="tarjetas col-2 row">
                 <div class="card col-4">
                     <h5 class="card-header">Qualifications</h5>
                     <div class="class-body">
@@ -104,5 +137,56 @@
         </main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script>
+        //EFECTO ACORDEÓN//
+        //Variables
+        let visible;
+        let años = document.querySelectorAll('.year');
+        let publicaciones = document.querySelectorAll('.articulos');
+        //Bucle para tener las alturas de los ul
+        for (let i = 0; i < publicaciones.length; i++) {
+            const altura = publicaciones[i].scrollHeight;
+            publicaciones[i].dataset.alto = altura;
+            publicaciones[i].style.height = '0px';
+        }
+        //Función para mostrar los párrafos
+        function muestraParrafo(elemento) {
+            let nodo = elemento.nextElementSibling;
+            if (nodo == visible) {
+                ocultaParrafo(nodo);
+                visible = undefined;
+            } else {
+                ocultaParrafo(visible);
+                let altura = nodo.dataset.alto;
+                nodo.style.height = altura + 'px';
+                visible = nodo;
+                let arr_h3 = [...años];
+                let pos = arr_h3.indexOf(elemento);
+                let scroll_top = tops[pos];
+                window.scrollTo({
+                    top: scroll_top,
+                    behavior: "smooth"
+                });
+            }
+        }
+        //Función para obtener las posiciones de cada año y desplazar la ventana
+        const tops = [];
+        for (let i = 0; i < años.length; i++) {
+            tops[i] = años[i].offsetTop;
+        }
+        //Función para ocultar el elemento visible
+        function ocultaParrafo(elemento) {
+            //si el elemento está visible lo ocultamos
+            if (elemento != undefined) {
+                elemento.style.height = '0px';
+            }
+        }
+        //Asignación dinámica de función a cada pregunta
+        for (let año of años) {
+            año.onclick = function () {
+                muestraParrafo(this);
+            }
+        }
+    </script>
 </body>
 </html>
