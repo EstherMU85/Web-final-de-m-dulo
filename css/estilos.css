@@ -289,16 +289,17 @@ hgroup{
   	margin-bottom: 12px;  /* Separación entre cada referencia bibliográfica */
   	line-height: 1.5;
   	transition: transform 0.2s ease, background-color 0.2s ease;
-  	padding: 0.5rem 0.5rem 0.5rem 32px;
+  	padding: 0.5rem 0.5rem 0.5rem 20px;
   	border-radius: 0.2rem;
 }
+/* Círculo para señalar cada li */
 .li-item::before {
   	content: "";
   	position: absolute;
-  	left: 0;
-  	top: 4px;            
-  	width: 20px;          
-  	height: 20px;         
+	left: 2px;
+  	top: 12px;        
+  	width: 15px;          
+  	height: 15px;         
   	background-image: url("..//imgs/circulo.png");
   	background-size: contain;
   	background-repeat: no-repeat;
