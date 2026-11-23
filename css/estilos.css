@@ -375,3 +375,8 @@ hgroup{
 	position: relative;
 	left: 3%;
 }
+.collaborator {
+	color: var(--color-0);
+	font-style: italic;
+	font-size: 1.2rem;
+}
