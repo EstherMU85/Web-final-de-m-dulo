@@ -100,6 +100,12 @@ hgroup{
 	margin: auto;
 	border: 1px solid var(--color-0);
 	border-radius: .2rem;
+	margin-top: .5rem;
+}
+.foto-perfil{
+	max-width: 200px; 
+	aspect-ratio: 1/1; 
+	object-fit: cover;
 }
 /*Estilos par las tarjetas*/
 .tarjetas {
