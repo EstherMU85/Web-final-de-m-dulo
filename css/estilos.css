@@ -119,8 +119,9 @@ hgroup{
 	align-items: center;
 	justify-content: center;
 	gap: 5.5rem;
+	border-radius: .2rem;
 }
-.card-header {
+.card-header, .titulo-tarjeta {
 	padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
 	margin-bottom: 0;
 	color: var(--color-0);
