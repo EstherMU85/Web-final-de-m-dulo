@@ -50,13 +50,16 @@ header{
     background-color: var(--color-5);
 	color: var(--color-0);
     border-bottom: 2px solid var(--color-0);
+	display: flex;
+	flex-direction: row;
 }
 hgroup{
     padding-top: 1rem;
 }
 .logo {
-	width: 100%;
+	max-width: 200px;
 	padding-top: 1.5rem;
+	height: auto;
 }
 .menu-lateral{
     background-color: var(--color-5);
