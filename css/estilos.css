@@ -132,7 +132,9 @@ hgroup{
 	color: var(--color-5);
 	padding: .2rem;
 	margin-bottom: .5rem;
+	margin-left: 25%;
 }
+
 .card {
 	--bs-card-spacer-y: 1rem;
 	--bs-card-spacer-x: 1rem;
@@ -262,7 +264,8 @@ hgroup{
                 border-left-color 0.5s ease, 
 }
 /* Efecto al pasar el ratón por cualquier parte de la tarjeta */
-.lateral .card:hover {
+.lateral .card:hover,
+.card:hover {
     transform: translateY(-4px);
     border-left-color: var(--color-0); 
     box-shadow: 0 6px 16px rgba(86, 93, 95, 0.15);
@@ -324,7 +327,7 @@ hgroup{
   	background-color: rgba(157, 112, 82, 0.08); 
   	transform: translateX(-6px);
 }
-/* Flecha apra volver arriba de los elmentos acordeón */
+/* Flecha para volver arriba de los elmentos acordeón */
 .articulos .volver-ano {
     list-style: none; /* Elimina el punto de lista */
     display: flex;
