@@ -41,7 +41,7 @@ ul, li{
 	border-radius: .2rem;
 	box-shadow: 2px 2px 2px var(--color-0);
 }
-.dropdown-item:hover{
+.li-dropdown:hover{
 	background-color: var(--color-2);
 	color: var(--color-0);
 	font-weight: bold;
@@ -80,13 +80,15 @@ hgroup{
 	font-weight: bold;
 	font-family: var(--titles);
 }
-.dropdown-menu, .sub-menu {
+/*.dropdown-menu, */
+.sub-menu {
 	background: var(--color-2);
 	border-radius: .2rem;
 	box-shadow: 2px 2px 2px var(--color-0);
 	width: fit-content;
 }
-.dropdown-item{
+/* .dropdown-item, */
+.li-dropdown{
 	color: var(--color-0);
 }
  .menu-lateral{
