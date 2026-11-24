@@ -411,3 +411,82 @@ hgroup{
 .fila label{
 	color: var(--color-0);
 }
+/* Estilo para la página de teaching */
+/* Tarjeta o bloque para cada puesto / etapa docente */
+.teaching-card {
+  background-color: var(--color-5);
+  border: 1px solid rgba(157, 112, 82, 0.25);
+  border-left: 4px solid var(--color-0);
+  border-radius: 0.2rem;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.teaching-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(86, 93, 95, 0.12);
+}
+/* Institución y ubicación */
+.teaching-institution {
+  color: var(--color-4);
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed rgba(157, 112, 82, 0.4);
+}
+
+/* Listado de asignaturas impartidas */
+.courses-list {
+  margin: 0.5rem 0 0.9rem 0;
+  padding-left: 0;
+}
+
+.courses-list li {
+  position: relative;
+  padding-left: 1.3rem;
+  margin-bottom: 0.45rem;
+  line-height: 1.5;
+  color: var(--color-4);
+}
+/* Viñeta personalizada coherente con tu paleta */
+.courses-list li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 5px;        
+  width: 15px;          
+  height: 15px;         
+  background-image: url("..//imgs/diente_8.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Etiqueta para resaltar los créditos ECTS */
+.badge-ects {
+  display: inline-block;
+  background-color: var(--color-2);
+  color: var(--color-0);
+  border: 1px solid rgba(157, 112, 82, 0.4);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.1rem 0.45rem;
+  border-radius: 0.2rem;
+  margin-left: 0.35rem;
+}
+
+/* Caja sutil para las responsabilidades */
+.teaching-responsibilities {
+  background-color: var(--color-2);
+  padding: 0.75rem 1rem;
+  border-radius: 0.2rem;
+  font-size: 0.92rem;
+  color: var(--color-4);
+  margin-top: 0.75rem;
+}
+
+.teaching-responsibilities strong {
+  color: var(--color-0);
+}
