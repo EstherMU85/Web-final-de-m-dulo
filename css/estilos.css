@@ -80,7 +80,7 @@ hgroup{
 	font-weight: bold;
 	font-family: var(--titles);
 }
-.dropdown-menu {
+.dropdown-menu, .sub-menu {
 	background: var(--color-2);
 	border-radius: .2rem;
 	box-shadow: 2px 2px 2px var(--color-0);
@@ -89,7 +89,7 @@ hgroup{
 .dropdown-item{
 	color: var(--color-0);
 }
-.offcanvas{
+ .menu-lateral{
 	--bs-offcanvas-width: 210px;
 }
 /* Estilo para el perfil */
