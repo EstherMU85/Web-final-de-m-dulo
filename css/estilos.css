@@ -29,6 +29,9 @@ h1,h2,h3,h4{
 ul, li{
     list-style: none;
 }
+main, aside{
+	margin: auto;
+}
 
 /* Estilo para la cabecera */
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link {
