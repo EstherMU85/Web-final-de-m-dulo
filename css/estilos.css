@@ -33,8 +33,8 @@ main{
 	margin: auto;
 }
 aside {
+	padding: 1rem;
 	margin: auto;
-	padding-top: 1rem;
 }
 
 /* Estilo para la cabecera */
