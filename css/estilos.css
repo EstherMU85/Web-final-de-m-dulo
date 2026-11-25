@@ -253,7 +253,7 @@ hgroup{
 	position: static;
 	 top: 1.5rem;
 }
-.lateral .card{
+.lateral .card, .tarjetas .card{
 	position: relative;
     background-color: var(--color-2);
     border: 1px solid rgba(157, 112, 82, 0.3);
@@ -266,13 +266,13 @@ hgroup{
 
 /* Efecto al pasar el ratón por cualquier parte de la tarjeta */
 .lateral .card:hover,
-.card:hover {
+.tarjetas .card:hover {
     transform: translateY(-4px);
     border-left-color: var(--color-0); 
     box-shadow: 0 6px 16px rgba(86, 93, 95, 0.15);
 }
 
-.titulo-tarjeta{
+.titulo-tarjeta {
 	font-family: var(--titles);
 }
 
@@ -293,7 +293,7 @@ hgroup{
     display: inline-block;
     transition: transform 0.25s ease;
 }
-.lateral .card:hover .btn, #btn_submit:hover {
+.lateral .card:hover .btn, .tarjetas .card:hover .btn,#btn_submit:hover {
     background-color: var(--color-0);
     color: var(--color-5);
 }
