@@ -29,6 +29,7 @@ h1,h2,h3,h4{
 ul, li{
     list-style: none;
 }
+
 /* Estilo para la cabecera */
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link {
 	color: var(--color-0);
@@ -65,14 +66,17 @@ hgroup{
     background-color: var(--color-5);
     color: var(--color-0);
 }
+
 .offcanvas .nav-link {
   transform-origin: left center;
 }
+
 .enlaces{
 	color: var(--color-0);
 	text-decoration: none;
 	font-weight: bold;
 }
+
 /* Estilo de la página principal*/
 #principal, .contenido {
 	padding: 1rem;
@@ -83,6 +87,7 @@ hgroup{
 	font-weight: bold;
 	font-family: var(--titles);
 }
+
 /*.dropdown-menu, */
 .sub-menu {
 	background: var(--color-2);
@@ -95,8 +100,9 @@ hgroup{
 	color: var(--color-0);
 }
  .menu-lateral{
-	--bs-offcanvas-width: 210px;
+	--bs-offcanvas-width: 250px;
 }
+
 /* Estilo para el perfil */
 #perfil {
 	padding-top: 1rem;
@@ -109,7 +115,8 @@ hgroup{
 	aspect-ratio: 1/1; 
 	object-fit: cover;
 }
-/*Estilos par las tarjetas*/
+
+/*Estilos par las tarjetas de las páginas principales*/
 .tarjetas {
 	padding: 1rem;
 	border: 1px solid var(--color-1);
@@ -177,6 +184,7 @@ hgroup{
   transform: scale(1.02);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
+
 /*Elementos de acordeon*/
 .year {
 	display: flex;          
@@ -408,6 +416,7 @@ hgroup{
 .fila label{
 	color: var(--color-0);
 }
+
 /* Estilo para la página de teaching */
 /* Tarjeta o bloque para cada puesto / etapa docente */
 .teaching-card {
@@ -424,6 +433,7 @@ hgroup{
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(86, 93, 95, 0.12);
 }
+
 /* Institución y ubicación */
 .teaching-institution {
   color: var(--color-4);
