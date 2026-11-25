@@ -87,7 +87,9 @@
       </section>
       <!-- Formulario de contacto -->
       <section class="formulario col-10">
-        <form action="https://formspree.io" method="POST">
+        <form action="https://api.staticforms.dev/submit" method= "POST">
+                    <input type="hidden" name="apiKey" value="sf_0375ab28733e788afa3c5f3f">
+                    <input type="hidden" name="subject" value="Esther Manzanares Ubeda submission">
           <div class="fila mb-3">
             <label for="name" class="form-label fw-semibold">Name *</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Dr. Jane Doe" required>
