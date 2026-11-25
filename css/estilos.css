@@ -84,6 +84,46 @@ hgroup{
 	font-weight: bold;
 }
 
+/*.dropdown-menu, */
+.sub-menu {
+	background: var(--color-2);
+	border-radius: .2rem;
+	box-shadow: 2px 2px 2px var(--color-0);
+	width: fit-content;
+}
+/* .dropdown-item, */
+.li-dropdown{
+	color: var(--color-0);
+	display: block; /* Asegura que cada opción ocupe su propia línea */
+  padding: 0.4rem 0.8rem;
+  text-decoration: none;
+}
+ .menu-lateral{
+	--bs-offcanvas-width: 250px;
+}
+
+.menu-lateral .btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-lateral .btn-group > .nav-link {
+  flex: 0 0 auto;
+}
+
+.menu-lateral .btn-group > .sub-menu.dropdown-menu {
+  position: static !important;
+  transform: none !important;
+  inset: auto !important;
+  flex: 0 0 100%; 
+  background: var(--color-2);
+  border-radius: .2rem;
+  box-shadow: 2px 2px 2px var(--color-0);
+  border: none;
+  margin-top: 0.3rem;
+}
 /* Estilo de la página principal*/
 #principal, .contenido {
 	padding: 1rem;
@@ -95,20 +135,6 @@ hgroup{
 	font-family: var(--titles);
 }
 
-/*.dropdown-menu, */
-.sub-menu {
-	background: var(--color-2);
-	border-radius: .2rem;
-	box-shadow: 2px 2px 2px var(--color-0);
-	width: fit-content;
-}
-/* .dropdown-item, */
-.li-dropdown{
-	color: var(--color-0);
-}
- .menu-lateral{
-	--bs-offcanvas-width: 250px;
-}
 
 /* Estilo para el perfil */
 #perfil {
